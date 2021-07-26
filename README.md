@@ -1,13 +1,20 @@
+<h3 align="center">
+    Blade CoreUI Icons
+</h3>
+
 <p align="center">
-    <img src="https://github.com/ublabs/art/blob/main/socialcard/blade-coreui-icons.png" width="1280" title="Social Card Blade CoreUI Icons">
+    <a href="https://github.com/ublabs/blade-coreui-icons/actions?query=workflow%3ATests">
+        <img src="https://github.com/ublabs/blade-coreui-icons/workflows/Tests/badge.svg" alt="Tests">
+    </a>
+    <a href="https://packagist.org/packages/ublabs/blade-coreui-icons">
+        <img src="https://img.shields.io/packagist/v/ublabs/blade-coreui-icons" alt="Latest Stable Version">
+    </a>
+    <a href="https://packagist.org/packages/ublabs/blade-coreui-icons">
+        <img src="https://img.shields.io/packagist/dt/ublabs/blade-coreui-icons" alt="Total Downloads">
+    </a>
 </p>
 
-# Blade CoreUI Icons
-
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ublabs/blade-coreui-icons.svg?style=flat-square)](https://packagist.org/packages/ublabs/blade-coreui-icons)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/ublabs/blade-coreui-icons/run-tests?label=tests)](https://github.com/ublabs/blade-coreui-icons/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/ublabs/blade-coreui-icons/Check%20&%20fix%20styling?label=code%20style)](https://github.com/ublabs/blade-coreui-icons/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/ublabs/blade-coreui-icons.svg?style=flat-square)](https://packagist.org/packages/ublabs/blade-coreui-icons)
+---
 
 A package to easily make use of [CoreUI Icons](https://icons.coreui.io/icons/) in your Laravel Blade views.
 

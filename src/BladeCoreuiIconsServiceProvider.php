@@ -11,7 +11,11 @@ class BladeCoreuiIconsServiceProvider extends ServiceProvider
     {
         $this->callAfterResolving(Factory::class, function (Factory $factory) {
             $factory->add('coreui-icons', [
-                'path' => __DIR__ . '/../resources/svg',
+                'paths' =>  [
+                    __DIR__ . '/../resources/svg/brand',
+                    __DIR__ . '/../resources/svg/flag',
+                    __DIR__ . '/../resources/svg/free',
+                ],
                 'prefix' => 'cui',
             ]);
         });
@@ -21,7 +25,9 @@ class BladeCoreuiIconsServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__ . '/../resources/svg' => public_path('vendor/blade-coreui-icons'),
+                __DIR__ . '/../resources/svg/brand' => public_path('vendor/blade-coreui-icons'),
+                __DIR__ . '/../resources/svg/flag' => public_path('vendor/blade-coreui-icons'),
+                __DIR__ . '/../resources/svg/free' => public_path('vendor/blade-coreui-icons'),
             ], 'blade-coreui-icons');
         }
     }
